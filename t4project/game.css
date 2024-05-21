@@ -1,0 +1,63 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 0.7rem;
+  width: 100%;
+  font-size: 1.6rem;
+  border: 0.3rem solid rgba(58, 154, 238, 0.25);
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.3rem 2.7rem;
+  background-color: #3496ec;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.6rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #45de69;
+}
+
+.incorrect {
+  background-color: #8f1e29;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20.5rem;
+  height: 4.3rem;
+  border: 0.4rem solid #2f90e5;
+  margin-top: 1.7rem;
+}
+
+#progressBarFull {
+  height: 3.2rem;
+  background-color: #2f93ea;
+  width: 0%;
+}
